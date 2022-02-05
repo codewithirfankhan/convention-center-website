@@ -1,0 +1,87 @@
+/* Fonts */
+
+<style>@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+</style>
+
+/* Common Style or Utilies*/
+html {
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Slider CSS */
+.text-position-Center {
+    padding-bottom: 8.25rem;
+}
+
+/* Our Package */
+.highlight {
+    width: 292px;
+    height: 480px;
+    background-color: #3f87f5;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 6px 20px 16px #82b3fd;
+    position: relative;
+    margin-top: -60px !important;
+
+}
+
+.top-sell {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -62px;
+    background-color: #ff4e4e;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.package-price {
+    font-weight: 700;
+}
+
+.package-title {
+    font-weight: 700;
+}
+
+.services {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Footer Section Start */
+
+/* Footer */
+footer {
+    color: #fff;
+    height: 280px;
+    background: #000;
+}
+
+.footer-item {
+    display: block;
+    text-align: center;
+}
+
+/* Responsive for Mobile Device */
+@media only screen and (max-width:688px) {
+    .highlight {
+        margin: 0;
+        margin-top: 3rem !important;
+        margin-bottom: 3rem !important;
+        margin-left: 15px;
+
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .copyright {
+        order: 1;
+    }
+
+}
